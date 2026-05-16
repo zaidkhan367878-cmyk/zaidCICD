@@ -46,7 +46,7 @@ jobs:
       - name: Clone Helm Repo
         run: |
           git clone \
-          https://${{ secrets.GIT_PAT }}@github.com/YOUR_GITHUB_USERNAME/zaidCICDConfig.git
+          https://github.com/zaidkhan367878-cmyk/zaidCICDConfig.git
 
       - name: Update Helm Values
         run: |
