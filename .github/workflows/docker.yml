@@ -78,5 +78,5 @@ jobs:
         run: |
 
           helm upgrade --install helloworld-release \
-          ./helloworld-helm-config/helloworld-chart \
+          ./zaidCICDConfig/helloworld-chart \
           -n zaidkhan367878-dev
