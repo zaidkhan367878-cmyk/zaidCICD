@@ -10,6 +10,6 @@ public class HelloWorldRestController {
 	
 	@GetMapping("/hello")
     public String getHello() {
-        return "Hello World this is my first kubernates app";
+        return "Hello from OpenShift + GitHub Actions";
     }
 }
