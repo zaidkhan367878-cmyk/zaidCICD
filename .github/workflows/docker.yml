@@ -77,6 +77,6 @@ jobs:
       - name: Helm Deploy
         run: |
 
-          helm upgrade --install helloworld-release \
+          helm upgrade --install helloworld \
           ./zaidCICDConfig/helloworld-chart \
           -n zaidkhan367878-dev
